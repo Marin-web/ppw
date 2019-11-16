@@ -1,0 +1,32 @@
+body{
+	background: url(../img/3.jpg);
+	background-attachment: fixed;
+	background-size: 100%;
+	margin: 0;
+
+}
+
+.element{
+	background: url(../img/4.jpg);
+	background-size: 100%;
+	width: 200px;
+	height: 200px;
+	border: 1px solid gray;
+	margin: 10px;
+}
+
+.repeat-x{
+	background-repeat: repeat-x;
+}
+
+.repeat-y{
+	background-repeat: repeat-y;
+}
+
+.no-repeat{
+	background-repeat: no-repeat;
+}
+
+.cover{
+	background-size: cover;
+}
